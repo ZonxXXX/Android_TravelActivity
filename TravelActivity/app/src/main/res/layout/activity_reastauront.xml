@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C594F"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/lexend_exa"
+        android:textColor="#232625"
+        android:gravity="center_horizontal"
+        android:text="According to your \n interests"
+        android:textSize="28dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/restaura1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="90dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/restauran2"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="90dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="770dp"
+        android:layout_height="150dp"
+        android:background="#232625"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/restaurant"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start1"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/hotel"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start2"
+            android:src="@drawable/hotel" />
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start3"
+            android:src="@drawable/new_profile" />
+
+        <ImageButton
+            android:id="@+id/lake"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start4"
+            android:src="@drawable/lake" />
+
+        <ImageButton
+            android:id="@+id/mountain"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start5"
+            android:src="@drawable/mountain" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+

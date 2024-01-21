@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C594F"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/activity" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lastvisitedplace"
+        android:layout_marginTop="400dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="770dp"
+        android:layout_height="150dp"
+        android:background="#232625"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/restaurant"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start1"
+            android:src="@drawable/restauront" />
+
+        <ImageButton
+            android:id="@+id/hotel"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start2"
+            android:src="@drawable/hotel" />
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start3"
+            android:src="@drawable/new_profile" />
+
+        <ImageButton
+            android:id="@+id/lake"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start4"
+            android:src="@drawable/lake" />
+
+        <ImageButton
+            android:id="@+id/mountain"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="#00000000"
+            android:contentDescription="Burgr bar"
+            android:onClick="start5"
+            android:src="@drawable/mountain" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="155dp"
+        android:fontFamily="@font/lexend_exa"
+        android:text="17"
+        android:textColor="#35403A"
+        android:textSize="32dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="205dp"
+        android:fontFamily="@font/lexend_exa"
+        android:text="14"
+        android:textColor="#35403A"
+        android:textSize="32dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="205dp"
+        android:fontFamily="@font/lexend_exa"
+        android:text="5"
+        android:textColor="#35403A"
+        android:textSize="32dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="155dp"
+        android:fontFamily="@font/lexend_exa"
+        android:text="9"
+        android:textColor="#35403A"
+        android:textSize="32dp" />
+
+</RelativeLayout>
+
+
+
